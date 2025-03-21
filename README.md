@@ -19,3 +19,13 @@ if __name__ == "__main__":
     httpd = HTTPServer(server_address, SimpleHandler)
     print(f"Serving on port {PORT}...")
     httpd.serve_forever()
+
+# Projet DevOps - Serveur HTTP avec Docker
+
+##  Prérequis
+- Docker installé
+- Python 3 installé (pour test en local)
+
+##  Exécution sans Docker
+```bash
+python app/server.py
